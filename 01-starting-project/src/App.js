@@ -11,7 +11,7 @@ function App() {
     const storedUserLoggedInInformation = localStorage.getItem("isLoggedIn");
 
     if (storedUserLoggedInInformation === "1") {
-      setIsLoggedIn(terue);
+      setIsLoggedIn(true);
     }
   }, []);
 
